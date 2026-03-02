@@ -1,18 +1,4 @@
-# Table 4 nonrs671.R
-# Title: HYBRID EFFICIENT Workflow for Non-rs671 Cohort
-#
-# Description:
-# This script uses a hybrid approach to analyze the alcohol consumption patterns
-# for participants who DO NOT have the rs671 variant. It exports only the
-# necessary data from BigQuery to CSVs and then loads them into R for analysis.
 
-#-------------------------------------------------------------------------------
-# SECTION 1: EFFICIENT DATA EXPORT & LOADING FOR NON-RS671 COHORT
-
-
-# --- 1a. Setup: Load all necessary libraries ---
-# Make sure you have these packages installed:
-# install.packages(c("tidyverse", "bigrquery", "janitor"))
 
 library(tidyverse)
 library(bigrquery)
